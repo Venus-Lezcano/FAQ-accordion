@@ -1,0 +1,24 @@
+body {
+  background: hsl(275, 100%, 97%);
+  font-family: 'Work Sans', sans-serif;
+}
+
+#container {
+  background: white;
+  width: 600px;
+  margin: 165px auto;
+  padding: 0px 40px;
+  border-radius: 15px;
+}
+
+#cabecera {
+  display: flex;
+  align-items: center;
+}
+
+#cabecera span {
+  color: hsl(292, 42%, 14%);
+  font-weight: 700;
+  font-size: 40px;
+  margin-left: 30px;
+}
