@@ -4,21 +4,37 @@ body {
 }
 
 #container {
+  box-sizing: border-box;
   background: white;
   width: 600px;
   margin: 165px auto;
-  padding: 0px 40px;
+  padding: 40px;
   border-radius: 15px;
 }
 
 #cabecera {
   display: flex;
   align-items: center;
+  padding: 15px 0px;
 }
 
 #cabecera span {
   color: hsl(292, 42%, 14%);
   font-weight: 700;
-  font-size: 40px;
+  font-size: 50px;
   margin-left: 30px;
+}
+
+.questions {
+  color: hsl(292, 42%, 14%);
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.answers {
+  color: hsl(292, 16%, 49%);
+  font-weight: 400;
 }
